@@ -1,7 +1,6 @@
 function agregarFruta(){
-  var texto = document.getElementById('li').value;
-  var lin = document.createElement("LI");
-  li.innerHTML = texto == ""?"(fruta que no existe)" :texto;
-  document.getElementById('lista').appendChild(li);
-
+  var nombreFruta = document.getElementById('nombreFruta').value
+  var frutaAgregada = document.createElement("li");
+  lista.appendChild(frutaAgregada);
+  frutaAgregada.innerText = nombreFruta;
   }
